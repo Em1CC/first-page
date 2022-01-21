@@ -1,0 +1,189 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+}
+
+
+/* HEADER */
+
+
+
+.header{
+    background-color: #1f2937;
+    color: #fff; 
+    padding: 0 180px;
+    padding-top: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.right ul{
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+.title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.header-title h1{
+    font-size: 48px;
+    color: #f9faf8; 
+}
+
+.header-title p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.img{
+    width: 450px;
+    height: auto;
+    object-fit: cover;
+}
+
+.button button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+
+/* ABOUT */
+
+.about-title {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+
+.about-container{
+    padding: 0 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+.about-card p{
+    text-align: center;
+    color: #797979;
+    font-size: 18px;
+}
+
+.about-card img{
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #3882f6;
+    align-self: center;
+}
+
+
+
+/* MAIN */
+
+.main{
+    background-color: #e5e7eb;
+    padding: 0 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.main p{
+    font-size: 32px;
+    font-style: italic;
+    color: #747474;
+}
+
+.main div{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 65%;
+}
+
+
+
+/* SIGN-UP */
+
+.sign-up{
+    margin: 80px 200px;
+}
+
+
+.sign-up__card{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sign-up__text{
+    color: #fff;  
+}
+
+.sign-up__button button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+
+
+/* FOOTER */
+
+
+footer{
+    background-color: #1f2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    color: #fff;
+
+    font-size: 18px;
+}
+
